@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { MessageCircle, Star, Music2, Instagram } from "lucide-react";
 import { Button } from "./ui/button";
 
-const WHATSAPP_BASE = "https://wa.me/1234567890?text=";
+const WHATSAPP_BASE = "https://wa.me/905510010289?text=";
 
 interface Package {
   followers: string;

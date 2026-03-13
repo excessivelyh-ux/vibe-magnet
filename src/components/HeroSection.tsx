@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { MessageCircle, Sparkles } from "lucide-react";
 import { Button } from "./ui/button";
 
-const WHATSAPP_LINK = "https://wa.me/1234567890?text=Hi!%20I%20want%20to%20order%20followers";
+const WHATSAPP_LINK = "https://wa.me/905510010289?text=Hi!%20I%20want%20to%20order%20followers";
 
 const HeroSection = () => (
   <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">

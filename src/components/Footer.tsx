@@ -1,6 +1,6 @@
 import { MessageCircle, Instagram, Music2 } from "lucide-react";
 
-const WHATSAPP_LINK = "https://wa.me/1234567890";
+const WHATSAPP_LINK = "https://wa.me/905510010289";
 
 const Footer = () => (
   <footer className="border-t border-border py-12">
