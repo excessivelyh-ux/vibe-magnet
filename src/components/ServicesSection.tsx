@@ -28,9 +28,10 @@ const ServicesSection = () => (
         className="text-center mb-14"
       >
         <h2 className="font-heading text-3xl sm:text-4xl font-bold mb-4">Our Services</h2>
-        <p className="text-sm font-medium text-accent uppercase tracking-wider mb-2">In two hours</p>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">Choose your platform and start growing today</p>
       </motion.div>
+
+      <p className="text-center text-sm font-medium text-accent uppercase tracking-wider mb-8">In two hours</p>
 
       <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         {services.map((service, i) => (
