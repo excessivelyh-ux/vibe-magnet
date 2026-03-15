@@ -196,7 +196,7 @@ const I18nContext = createContext<I18nContextType>({
 export const I18nProvider = ({ children }: { children: React.ReactNode }) => {
   const [lang, setLang] = useState<Lang>(() => {
     const saved = localStorage.getItem("lang") as Lang;
-    return saved && translations[saved] ? saved : "en";
+    return saved && translations[saved] ? saved : "tr";
   });
 
   const changeLang = useCallback((l: Lang) => {
